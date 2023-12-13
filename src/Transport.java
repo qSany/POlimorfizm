@@ -1,8 +1,9 @@
 import java.util.Objects;
 
-abstract public class Transport implements ServiceStation  {
+abstract public class Transport implements ServiceTransport {
     private String modelName;
     private int wheelsCount;
+
 
     public String getModelName() {
         return modelName;

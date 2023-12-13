@@ -10,6 +10,9 @@ public class Main {
         bicycle.check();
         car.check();
         truck.check();
+        System.out.println();
+        ServiceStation serviceStation = new ServiceStation();
+        serviceStation.check(truck);
 
   }
 }
