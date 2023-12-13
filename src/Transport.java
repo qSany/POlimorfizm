@@ -4,6 +4,7 @@ abstract public class Transport implements ServiceStation  {
     private String modelName;
     private int wheelsCount;
 
+
     public String getModelName() {
         return modelName;
     }
